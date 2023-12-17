@@ -88,7 +88,7 @@ const FCard = () => {
     }, 2000);
 
     return () => clearInterval(intervalId);
-  }, []);
+  }, [images.length]);
 
   const generateRandomColor = () => {
       const hue = Math.floor(Math.random() * 360); 
