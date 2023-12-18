@@ -3,12 +3,12 @@ import FAQ from './FaqModel';
 
 const faqData = [
   {
-    question: 'Como faço para iniciar no React?',
-    answer: 'dsa',
+    question: 'Question 1',
+    answer: 'Answer 1',
   },
   {
-    question: 'Qual é a diferença entre state e props?',
-    answer: 'dsa'
+    question: 'Question 2',
+    answer: 'Answer 2'
   },
 ];
 
