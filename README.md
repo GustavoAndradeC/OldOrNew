@@ -34,7 +34,7 @@ Exemplos claros e instruções sobre como usar o seu projeto. Inclua códigos de
 
 ## Contato
 
-- LinkedIn: [Gustavo Andrade](https://www.linkedin.com/in/seu-nome)
+- LinkedIn: [Gustavo Andrade](https://www.linkedin.com/in/gustavoandradec/)
 
 ## Badges
 
