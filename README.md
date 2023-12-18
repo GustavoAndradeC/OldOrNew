@@ -27,11 +27,6 @@ Instalar dependências: `npm install`
 Inicie o projeto: `npm start`
 ```
 
-
-## Como Usar
-
-Exemplos claros e instruções sobre como usar o seu projeto. Inclua códigos de exemplo, capturas de tela ou vídeos, se possível.
-
 ## Contato
 
 - LinkedIn: [Gustavo Andrade](https://www.linkedin.com/in/gustavoandradec/)
