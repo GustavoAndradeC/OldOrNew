@@ -3,6 +3,7 @@ import styled from "styled-components";
 import Card from "./CardModel";
 import Bone from "../../../Assents/Bone.svg"
 import Camisa from "../../../Assents/Camisa.png"
+import Moletom from "../../../Assents/Moletom1.svg"
 import { Container62 } from '../../../Models';
 
 const CardContainer = styled.div`
@@ -20,9 +21,9 @@ const Purchase = () => {
 
          imageUrl={Bone} 
          title="Boné" 
-         text="Descrição do Produto 1." 
+         text="Este boné é uma peça de vestuário casual que combina estilo e conforto. Com uma aba reta e firme, ele adiciona um toque moderno ao visual. " 
          buttonText="Comprar"
-         buttonLink="https://iplogger.org/pt/logger/xq2j4yHXqwJR/"
+         buttonLink="https://www.instagram.com/"
 
          />
 
@@ -30,19 +31,19 @@ const Purchase = () => {
          
          imageUrl={Camisa} 
          title="Camisa" 
-         text="Bone legal bonito bla bla bla bla bla bla blaBone legal bonito bla bla bla bla bla bla blaBone legal bonito bla bla bla bla bla bla bla" 
+         text="Esta camisa é uma peça elegante que incorpora um design contemporâneo com um toque clássico. O tecido parece ser de algodão de alta qualidade, conferindo um toque suave e confortável à peça." 
          buttonText="Comprar"
-         buttonLink="https://www.instagram.com/p/Cz64gS0uu6m/?utm_source=ig_web_copy_link&igshid=ODhhZWM5NmIwOQ=="
+         buttonLink="https://www.instagram.com/"
 
          />
 
          <Card 
          
-         imageUrl={Bone} 
+         imageUrl={Moletom} 
          title="Moletom" 
-         text="Bone legal bonito bla bla bla bla bla bla blaBone legal bonito bla bla bla bla bla bla blaBone legal bonito bla bla bla bla bla bla blaBone legal bonito bla bla bla bla bla bla bla " 
+         text="Este moletom é uma peça aconchegante e estilosa, perfeita para dias mais frios. Fabricado com um tecido macio, provavelmente uma mistura de algodão e poliéster, ele proporciona conforto e calor.  " 
          buttonText="Comprar"
-         buttonLink="https://www.youtube.com/watch?v=zG5gWncAhls&ab_channel=GR6EXPLODE"
+         buttonLink="https://www.instagram.com/"
 
          />
 

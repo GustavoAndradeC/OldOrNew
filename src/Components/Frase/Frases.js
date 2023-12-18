@@ -18,13 +18,17 @@ const CustomPhrase = styled.div`
     @media (max-width: 540px) {
         font-size: 5vh;
     }
+
+    @media (max-width: 470px) {
+        padding: 25px;
+    }
 `;
 
 const Frases = () => {
     return (
         <CustomPhrase>
             <Space>  
-             Qualidade que você pode sentir.    Estilo que você pode ver.
+             Qualidade que você pode sentir. Estilo que você pode ver.
              </Space>
         </CustomPhrase>
 

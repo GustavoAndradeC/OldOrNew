@@ -41,6 +41,7 @@ const CardText = styled.p`
   margin-bottom: 20px;
   color: #555;
   overflow: hidden;
+  max-width: 100%;
 `;
 
 const BuyButton = styled.button`
@@ -58,7 +59,7 @@ const BuyButton = styled.button`
   font-size: 16px;
 
   &:hover {
-    background-color: #cae6ff;
+    background-color: #f7b8a3;
   }
 `;
 

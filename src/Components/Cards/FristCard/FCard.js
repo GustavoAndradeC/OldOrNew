@@ -41,11 +41,11 @@ const Title = styled.h1`
     }
 
   @media (max-width: 450px) {
-    font-size: 9vh;
+    font-size: 12vw;
   }
 
   @media (max-width: 380px) {
-    font-size: 7vh;
+    font-size: 12vw;
   }
 
 
@@ -63,11 +63,11 @@ const SubTitle = styled.p`
   line-height: 36px;
 
   @media (max-width: 540px) {
-    font-size: 5vh;
+    font-size: 4vw;
     }
 
-  @media (max-width: 450px) {
-    font-size: 3vh;
+  @media (max-width: 470px) {
+    font-size: 4vw;
   }
 
   @media (max-width: 390px) {

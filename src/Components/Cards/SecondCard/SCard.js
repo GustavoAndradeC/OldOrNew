@@ -10,7 +10,7 @@ const Card = styled.div`
     height: auto;
     width: 100%;
     flex-shrink: 0;
-    border-radius: 72px;
+    border-radius: 55px;
     background-color: #FFFFFF;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     padding: 2rem; 
@@ -64,7 +64,8 @@ const Image = styled.img`
     max-width: 20%;
     height: auto;
 
-    @media (max-width: 430px) {
+    @media (max-width: 500px) {
+        width: 0;
     }
 `;
 
@@ -72,7 +73,6 @@ const Button = styled.button`
     width: 12em;
     height: 2.3em;
     margin: 0.5em;
-    margin-top: 1.5rem;
     background: black;
     color: white;
     border: none;
@@ -104,6 +104,10 @@ const Button = styled.button`
     &:hover::after {
         transform: skewX(-45deg) scale(1, 1);
         transition: all 0.5s;
+    }
+
+    @media (max-width: 900px) {
+        font-size: 2vw;
     }
 
     @media (max-width: 768px) {

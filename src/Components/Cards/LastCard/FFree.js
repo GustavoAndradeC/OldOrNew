@@ -11,7 +11,7 @@ const Card = styled.div`
   height: auto;
   width: 100%;
   flex-shrink: 0;
-  border-radius: 72px;
+  border-radius: 55px;
   background-color: #FFFFFF;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
   padding: 2rem;
@@ -56,11 +56,12 @@ const Description = styled.p`
 `;
 
 const Image = styled.img`
-  width: 25%;
-  max-width: 25%;
+  width: 20%;
+  max-width: 20%;
+  margin: 20px;
   height: auto;
 
-  @media (max-width: 450px) {
+  @media (max-width: 550px) {
     width: 0;
   }
 `;
